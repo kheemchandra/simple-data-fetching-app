@@ -10,6 +10,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #222;
+  background-color: #222;   
 }
 
+ul, li { margin: 0; padding: 0; }

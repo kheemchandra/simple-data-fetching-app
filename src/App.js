@@ -1,8 +1,13 @@
+import React, { Fragment } from 'react';
+import FetchMovies from './components/FetchMovies/FetchMovies';
+import MovieList from './components/Movies/MovieList/MovieList';
+
 function App() {
   return (
-    <div>
-      <h2>Let's get started!</h2>
-    </div>
+    <Fragment>
+      <FetchMovies />
+      <MovieList />
+    </Fragment>
   );
 }
 

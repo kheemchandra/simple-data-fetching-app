@@ -1,0 +1,25 @@
+.movie{
+  background-color: #280353;
+  border: 1px solid #280353;
+  border-radius: 12px;
+  text-align: center; 
+  margin-bottom: 16px;
+  padding-inline: 16px;
+}
+
+.movie:last-child{
+  margin-bottom: 0;
+}
+
+.movie h1{
+  color: yellow;
+}
+
+.movie h3{
+  color: goldenrod;
+}
+
+.movie p{
+  color: white;
+  font-weight: 300;
+}

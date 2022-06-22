@@ -1,0 +1,10 @@
+.movie-list{
+  list-style: none;
+  background-color: white;
+  border-radius: 12px;
+  /* border: 1px solid red; */
+  width: 90vw;
+  max-width: 640px;
+  padding: 50px;
+  margin: 10px auto;
+}
