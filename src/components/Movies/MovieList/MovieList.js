@@ -4,10 +4,9 @@ import Movie from "../Movie/Movie";
 
 import classes from "./MovieList.module.css";
 
-
 const MovieList = (props) => {
-  if(props.children){
-  return <ul className={classes["movie-list"]}>{props.children}</ul>;
+  if (props.children) {
+    return <ul className={classes["movie-list"]}>{props.children}</ul>;
   }
   let content = props.movies.map((movie) => {
     return (
