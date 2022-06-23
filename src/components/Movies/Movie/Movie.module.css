@@ -4,7 +4,7 @@
   border-radius: 12px;
   text-align: center; 
   margin-bottom: 16px;
-  padding-inline: 16px;
+  padding:32px 20px;
 }
 
 .movie:last-child{
@@ -17,6 +17,7 @@
 
 .movie h3{
   color: goldenrod;
+  margin: 20px auto 15px;
 }
 
 .movie p{

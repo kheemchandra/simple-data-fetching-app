@@ -6,7 +6,7 @@ import classes from './FetchMovies.module.css';
 
 const FetchMovies = props => {
   return <div className={classes['fetch-movies']}>
-    <Button>Fetch Movies</Button>
+    <Button onClick={props.onFetch}>Fetch Movies</Button>
   </div>
 }
 

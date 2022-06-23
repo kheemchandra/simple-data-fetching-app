@@ -4,6 +4,9 @@
   width: 640px;
   border-radius: 12px;
   margin: 16px auto;
-  padding: 31px 240px;
+  padding-block: 31px;
+  display: flex;
+  justify-content: center;
+
 
 }
